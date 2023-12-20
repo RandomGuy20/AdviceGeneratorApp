@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="./app/app.js" asyn defer></script>
   <title>Frontend Mentor | Advice generator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,13 +17,40 @@
 </head>
 <body>
 
-  Advice #<!-- Advice ID goes here -->
+  <!-- Advice #
 
-  "<!-- Advice text goes here -->"
-  
+  "Advice text goes here" -->
+
+  <div class="quote-container">
+
+    <h3 class="advice-number">Advice #<span class="quote-number">117</span></h3>
+    <div class="advice" id="advice">
+      <p>
+        Click the Dice to get a quote. 
+      </p>
+    </div>
+    <div class="bottom-row">
+      <!-- <hr> -->
+      <img src="" alt="" class="pattern-divider"  border="0">
+      <!-- <hr> -->
+    </div>
+
+
+
+  </div>
+
+  <div class="dice-container">
+    <button class="generate-advice selected" id="generate-advice">
+      <img src="./images/icon-dice.svg" alt="" class="dice-image">
+    </button>
+
+  </div>
+
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/RandomGuy20?tab=repositories">RandomGuy20</a>.
   </div>
 </body>
+
 </html>
